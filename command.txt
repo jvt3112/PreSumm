@@ -1,0 +1,2 @@
+# %cd /content/drive/MyDrive/DPAIntern/PreSumm/src
+!python /content/drive/MyDrive/DPAIntern/PreSumm/src/train.py -task ext -mode test_text -test_from /content/drive/MyDrive/DPAIntern/PreSumm/models/bertext_cnndm_transformer.pt -text_src /content/drive/MyDrive/DPAIntern/PreSumm/raw_data/temp_ext.raw_src -result_path /content/drive/MyDrive/DPAIntern/PreSumm/testResults/summa3 -visible_gpus 0 -accum_count 2 -numberOfSentence 4 
